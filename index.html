@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="">
+            <div class="container">
+                <h1>Create an account</h1>
+                <div class="personalInformation formGroup">
+                    <h2>Personal Information</h2>
+                    <div class="inputGroup">
+                        <label for="username">Username</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="inputGroup">
+                        <label for="password">Password</label>
+                        <input type="text" required placeholder="At least 6 characters">
+                    </div>
+                    <div class="inputGroup">
+                        <label for="email">Email</label>
+                        <input type="email" required placeholder="john@example.com" class="email">
+                    </div>
+                </div>
+                <div class="paymentInformation formGroup">
+                    <h2>Payment Information</h2>
+                    <div class="inputCCGroup">
+                        <label for="creditCard">Credit card</label>
+                        <input type="text" required placeholder="Cardholder's name">
+                        <input type="tel" required placeholder="Credit card number">
+                        <input type="tel" required placeholder="Exp date">
+                        <input type="tel" required placeholder="CVV">
+                    </div>
+                </div>
+            </div>
+            <div class="submitContainer">
+                <button class="createAccount">Create your account</button>
+                <button class="cancelCreateAccount">Cancel creating account</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
