@@ -20,16 +20,31 @@ body {
     overflow: hidden;
 }
 
+.vacFinder {
+    background: url(./iconmonstr-compass-4.svg) no-repeat;
+    padding-left: 30px;
+    width: 165px;
+    height: 30px;
+    background-size: 21px 19px;
+    color: #333333;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: -0.04em;
+    font-family: 'Montserrat';
+}
+
 h1 {
     font-size: 20px;
-    margin-bottom: 25px;
+    margin: 10px 0 25px 0;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
 }
 
 h2 {
     font-size: 15px;
     margin-bottom: 20px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
     color: #5C4C4C;
 }
 
@@ -42,16 +57,29 @@ label {
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
     color: #5C4C4C;
+    margin-bottom: 5px;
 }
 
 input {
-    height: 37px;
+    height: 42px;
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.13);
     width: 260px;
     border: 1px solid #BCBFC6;
     box-sizing: border-box;
     border-radius: 3px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.inputCC {
+    margin-bottom: 15px;
+}
+
+.expDate,
+.cvv {
+    width: 128px;
+    display: inline-block;
 }
 
 .formGroup {
@@ -60,7 +88,33 @@ input {
 
 .submitContainer {
     background: rgba(196, 196, 196, 0.12);
-    padding: 24px 40px;
+    padding: 24px;
+}
+
+.createAccount {
+    width: 260px;
+    height: 42px;
+    background: #B065FB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cancelCreateAccount {
+    width: 250px;
+    height: 42px;
+    border: none;
+    color: #A49494;
+    background-color: rgba(196, 196, 196, -3.88);
+    font-family: 'Montserrat', sans-serif;
+}
+
+::placeholder {
+    color: #AA9494;
+    font-family: 'Roboto';
+    font-size: 16px;
 }
 
 @media (min-width: 600px) {
