@@ -128,6 +128,7 @@ input {
 @media (min-width: 700px) {
     .wrapper {
         padding: 40px;
+        margin-top: 80px;
     }
     .container {
         display: flex;
@@ -156,8 +157,7 @@ input {
 
 @media (min-width: 1000px) {
     .wrapper {
-        width: 900px;
-        margin-left: 250px;
+        width: auto;
     }
     h1 {
         font-size: 25px;
